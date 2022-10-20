@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "c4f897cf-7c8c-451a-a9d4-bef5e0c58d7c",
+		"name": "flask",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23929384"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/ifsc-search?ifsc_code=ABHY0065004",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/ifsc-search?ifsc_code=ABHY0065004",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"ifsc-search"
+					],
+					"query": [
+						{
+							"key": "ifsc_code",
+							"value": "ABHY0065004"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/leaderboard?sortorder=DESC&fetchcount=225",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/leaderboard?sortorder=DESC&fetchcount=225",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"leaderboard"
+					],
+					"query": [
+						{
+							"key": "sortorder",
+							"value": "DESC"
+						},
+						{
+							"key": "fetchcount",
+							"value": "225"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/statistics?sortorder=DESC&fetchcount=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/statistics?sortorder=DESC&fetchcount=7",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"statistics"
+					],
+					"query": [
+						{
+							"key": "sortorder",
+							"value": "DESC"
+						},
+						{
+							"key": "fetchcount",
+							"value": "7"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

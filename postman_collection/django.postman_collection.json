@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "22801667-bf06-4ec7-9e50-fcc01cfe73cb",
+		"name": "django",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23929384"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/ifsc-search/?ifsc_code=ABHY0065004",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/ifsc-search?ifsc_code=ABHY0065004AA",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ifsc-search"
+					],
+					"query": [
+						{
+							"key": "ifsc_code",
+							"value": "ABHY0065004AA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/leaderboard?sortorder=DESC&fetchcount=225",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/leaderboard?sortorder=DESC&fetchcount=50",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"leaderboard"
+					],
+					"query": [
+						{
+							"key": "sortorder",
+							"value": "DESC"
+						},
+						{
+							"key": "fetchcount",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/statistics?sortorder=DESC&fetchcount=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/statistics?sortorder=DESC&fetchcount=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"statistics"
+					],
+					"query": [
+						{
+							"key": "sortorder",
+							"value": "DESC"
+						},
+						{
+							"key": "fetchcount",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/ifsc-hits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/ifsc-hits",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ifsc-hits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/url-hits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/url-hits",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"url-hits"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

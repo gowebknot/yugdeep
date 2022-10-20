@@ -53,6 +53,10 @@ The main functions of this layer is to :
     
     cd cache_api(in terminal)
 
+## To avoid migrations error
+    
+    python3 manage.py migrate    
+    
 ## To run the unit tests in django cache_api
     
     python3 manage.py test app 

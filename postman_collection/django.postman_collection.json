@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/ifsc-search?ifsc_code=ABHY0065004AA",
+					"raw": "http://127.0.0.1:8000/api/ifsc-search?ifsc_code=ABHY0065005",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -28,7 +28,7 @@
 					"query": [
 						{
 							"key": "ifsc_code",
-							"value": "ABHY0065004AA"
+							"value": "ABHY0065005"
 						}
 					]
 				}
@@ -41,7 +41,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/leaderboard?sortorder=DESC&fetchcount=50",
+					"raw": "http://127.0.0.1:8000/api/leaderboard?sortorder=ASC&fetchcount=10",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -57,11 +57,11 @@
 					"query": [
 						{
 							"key": "sortorder",
-							"value": "DESC"
+							"value": "ASC"
 						},
 						{
 							"key": "fetchcount",
-							"value": "50"
+							"value": "10"
 						}
 					]
 				}
@@ -74,7 +74,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/statistics?sortorder=DESC&fetchcount=1",
+					"raw": "http://127.0.0.1:8000/api/statistics?sortorder=DESC&fetchcount=5",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -94,7 +94,7 @@
 						},
 						{
 							"key": "fetchcount",
-							"value": "1"
+							"value": "5"
 						}
 					]
 				}
